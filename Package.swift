@@ -15,7 +15,7 @@ let package = Package(
     	),
     ],
     dependencies: [
-    	.package(url: "https://github.com/KivySwiftLink/ImageCore", .upToNextMajor(from: "0.0.10"))
+    	.package(url: "https://github.com/KivySwiftLink/ImageCore", .upToNextMajor(from: "311.0.0"))
         //.package(path: "../imagecore")
     ], targets: [
     	.target(
@@ -46,13 +46,13 @@ let package = Package(
         	]
     	),
     	//            .binaryTarget(name: "libSDL2_mixer", path: "xcframework/libSDL2_mixer.zip"),
-    	    	.binaryTarget(name: "libSDL2_mixer", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.0/libSDL2_mixer.zip", checksum: "8103d4a03f017bfb8dbf1eb843cf2e1c8d1e8693ff1c391c38b9b6ca92bfa26f"),
+    	    	.binaryTarget(name: "libSDL2_mixer", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.1/libSDL2_mixer.zip", checksum: "75641fd65479caaaaba0910c61dff7385267c3d75993042edddf75ddd33168b2"),
     	//        .binaryTarget(name: "libSDL2_ttf", path: "xcframework/libSDL2_ttf.zip"),
-    	    	.binaryTarget(name: "libSDL2_ttf", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.0/libSDL2_ttf.zip", checksum: "3102bb3f196bfb14561cc25cb9bac2a19b3570945840fb66021d05b736413bc4"),
+    	    	.binaryTarget(name: "libSDL2_ttf", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.1/libSDL2_ttf.zip", checksum: "5cea5a929006bd4c5cbf4eff466af44c8f29acbf908ff2b3a5a711b262663e25"),
     	//        .binaryTarget(name: "libSDL2_image", path: "xcframework/libSDL2_image.zip"),
-    	    	.binaryTarget(name: "libSDL2_image", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.0/libSDL2_image.zip", checksum: "fa7ffdb3091ea1427c8bd82357831a35c8d02519b787ea91666408eab9fcbbfb"),
+    	    	.binaryTarget(name: "libSDL2_image", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.1/libSDL2_image.zip", checksum: "ccd51f984bfa29121883d1465290ab8ed8ae414eb9019f314ed4b43506754e5e"),
     	//        .binaryTarget(name: "libSDL2", path: "xcframework/libSDL2.zip"),
-    	    	.binaryTarget(name: "libSDL2", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.0/libSDL2.zip", checksum: "d52b7e0e90387f700969f8056d6994079d2e6d34652211618fff7f31caa1c104"),
+    	    	.binaryTarget(name: "libSDL2", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.1/libSDL2.zip", checksum: "579dce30413b911ac311d9175f8be063b0444982df2e8cdb7babb278e5a4d6fa"),
     ]
 
 
