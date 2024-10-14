@@ -46,13 +46,13 @@ let package = Package(
         	]
     	),
     	//            .binaryTarget(name: "libSDL2_mixer", path: "xcframework/libSDL2_mixer.zip"),
-    	    	.binaryTarget(name: "libSDL2_mixer", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.1/libSDL2_mixer.zip", checksum: "75641fd65479caaaaba0910c61dff7385267c3d75993042edddf75ddd33168b2"),
+    	    	.binaryTarget(name: "libSDL2_mixer", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.0/libSDL2_mixer.zip", checksum: "d599ef2a06dc4079b20728ff14b37a1f6597a767899889eb5630499dda45aef3"),
     	//        .binaryTarget(name: "libSDL2_ttf", path: "xcframework/libSDL2_ttf.zip"),
-    	    	.binaryTarget(name: "libSDL2_ttf", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.1/libSDL2_ttf.zip", checksum: "5cea5a929006bd4c5cbf4eff466af44c8f29acbf908ff2b3a5a711b262663e25"),
+    	    	.binaryTarget(name: "libSDL2_ttf", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.0/libSDL2_ttf.zip", checksum: "95f768965e01addcebbd8e87ee88c45fd2a801c1a6792fb462da08eb56a52a5a"),
     	//        .binaryTarget(name: "libSDL2_image", path: "xcframework/libSDL2_image.zip"),
-    	    	.binaryTarget(name: "libSDL2_image", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.1/libSDL2_image.zip", checksum: "ccd51f984bfa29121883d1465290ab8ed8ae414eb9019f314ed4b43506754e5e"),
+    	    	.binaryTarget(name: "libSDL2_image", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.0/libSDL2_image.zip", checksum: "dc32414ec67e4c31a917e4829fc3b1c5158ccb25982a701e580c39afeb7d0a13"),
     	//        .binaryTarget(name: "libSDL2", path: "xcframework/libSDL2.zip"),
-    	    	.binaryTarget(name: "libSDL2", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.1/libSDL2.zip", checksum: "579dce30413b911ac311d9175f8be063b0444982df2e8cdb7babb278e5a4d6fa"),
+    	    	.binaryTarget(name: "libSDL2", url: "https://github.com/KivySwiftLink/SDL2Core/releases/download/311.0.0/libSDL2.zip", checksum: "2a9dfaf14f5f3c6b3fb6839c0595636832322c1a9a81e339d34e517dbe45b339"),
     ]
 
 
