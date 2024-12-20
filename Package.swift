@@ -44,22 +44,22 @@ let package = Package(
         .binaryTarget(
             name: "libSDL2",
             url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.0.5/libSDL2.zip",
-            checksum: "3093f90eaf1328d2374e3e64e0f407f9ce2172fab18699a43104c10440248718"
+            checksum: "89989ab91268614ac1e29f54cd31a6dccd3b23b2515311b3b9bc1697881590e9"
         ),
         .binaryTarget(
             name: "libSDL2_image",
             url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.0.5/libSDL2_image.zip",
-            checksum: "c1c1501278bea3398fe367b144ad6df28a0be830010b4bf91bb08969336ed09b"
+            checksum: "7093a3b34ce6b492fabf46c53c9d1680351c163c6a50380d09dbae9071bdff00"
         ),
         .binaryTarget(
             name: "libSDL2_mixer",
             url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.0.5/libSDL2_mixer.zip",
-            checksum: "cf3ed62c4285dd5d3a772b6e0fe82d5fc92b1c5a3f829622cf6f34b4f0421ac6"
+            checksum: "dbb729712e97d045cd2f75b1ed5e39600fd72fbc9f005bdd34ce50a87bb52e27"
         ),
         .binaryTarget(
             name: "libSDL2_ttf",
             url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.0.5/libSDL2_ttf.zip",
-            checksum: "832bbb58effe181045c7d30815e46480f52099eba8c63f747047d9402dcd06a1"
+            checksum: "cdeddfc7dd57e320e03f84ea7923c491f59f689c9e077fb196f2f6076ee4e160"
         )
     ]
 )
