@@ -6,7 +6,7 @@ let package = Package(
     name: "SDL2Core",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "SDL2Core", targets: ["SDL2Core"])
+        .library(name: "SDL2Core", targets: ["SDL2Core", "libSDL"])
     ],
     dependencies: [
         .package(url: "https://github.com/KivySwiftLink/ImageCore", from: "311.0.14"),
