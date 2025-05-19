@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "SDL2Core", targets: ["SDL2Core", "libSDL2"])
     ],
     dependencies: [
-        .package(url: "https://github.com/KivySwiftLink/ImageCore", from: "311.1.10"),
+        .package(url: "https://github.com/KivySwiftLink/ImageCore", from: "311.1.11"),
         .package(url: "https://github.com/KivySwiftLink/PySwiftKit", .upToNextMajor(from: "311.0.0")),
         .package(url: "https://github.com/KivySwiftLink/PythonCore", .upToNextMajor(from: "311.0.0"))
     ],
@@ -45,23 +45,23 @@ let package = Package(
         ),
         .binaryTarget(
             name: "libSDL2",
-            url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.1.10/libSDL2.zip",
-            checksum: "117c363a2f5ef3b1a0649ec25202cbb0ec32b57bd235fb5e89e949698aebadc3"
+            url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.1.11/libSDL2.zip",
+            checksum: "c0ac8ea7f7a15486af30afdac6a8739efdd3360946149d2396516462058e4f59"
         ),
         .binaryTarget(
             name: "libSDL2_image",
-            url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.1.10/libSDL2_image.zip",
-            checksum: "b9ab334743cd017ecf7c1dfd32b285028ef992bd5550a1932192334d5570870f"
+            url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.1.11/libSDL2_image.zip",
+            checksum: "e68a12583915d84cbd22fad11eca013867e6a13ab3fd7412e4d21cf8d2d891f1"
         ),
         .binaryTarget(
             name: "libSDL2_mixer",
-            url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.1.10/libSDL2_mixer.zip",
-            checksum: "3512f75c6980c70a4f5e55342e15d6567a1c8bc256546ca87b91cf2547716892"
+            url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.1.11/libSDL2_mixer.zip",
+            checksum: "ec448303886be31092bf6c07e59047bd7ae53fb71c8af9648504c616eb8cc41e"
         ),
         .binaryTarget(
             name: "libSDL2_ttf",
-            url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.1.10/libSDL2_ttf.zip",
-            checksum: "cf54a976aecaa2e1dadae673f501558c28c6f08170a35ad9ac5936ad56c01cbf"
+            url: "https://github.com/kivyswiftlink/SDL2Core/releases/download/311.1.11/libSDL2_ttf.zip",
+            checksum: "411e9b24bf6ad70cb68a6b4ef8b2e41bbfb306e47ed6de8288978aa9bba6038b"
         )
     ]
 )
