@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "SDL2Core", targets: ["SDL2Core", "libSDL2"])
     ],
     dependencies: [
-        .package(url: "https://github.com/kv-swift/ImageCore", from: "311.1.14"),
+        .package(url: "https://github.com/kv-swift/ImageCore", from: "311.1.15"),
         .package(url: "https://github.com/kv-swift/PySwiftKit", .upToNextMajor(from: "311.0.0")),
         .package(url: "https://github.com/kv-swift/PythonCore", .upToNextMajor(from: "311.0.0"))
     ],
@@ -45,23 +45,23 @@ let package = Package(
         ),
         .binaryTarget(
             name: "libSDL2",
-            url: "https://github.com/kv-swift/SDL2Core/releases/download/311.1.14/libSDL2.zip",
-            checksum: "c158d13b500de1b414a8ad1242613b578ee0913972baed315afa0c064bcb5b48"
+            url: "https://github.com/kv-swift/SDL2Core/releases/download/311.1.15/libSDL2.zip",
+            checksum: "6d25aef88c6de3e92529cda57d2c93cee60406343f2f7494fc699fb4091d142b"
         ),
         .binaryTarget(
             name: "libSDL2_image",
-            url: "https://github.com/kv-swift/SDL2Core/releases/download/311.1.14/libSDL2_image.zip",
-            checksum: "222bea07b56b05fedf405594258a8728674faa7c5648b7441c8bbec72608690a"
+            url: "https://github.com/kv-swift/SDL2Core/releases/download/311.1.15/libSDL2_image.zip",
+            checksum: "391c150fc3a98af582a5a2c24afe39be7a11f1de5e97d78f688d92358d9cc7f2"
         ),
         .binaryTarget(
             name: "libSDL2_mixer",
-            url: "https://github.com/kv-swift/SDL2Core/releases/download/311.1.14/libSDL2_mixer.zip",
-            checksum: "4622b71bd87febd4f491e8ec31127df5c4e27092dcc07d37e7eec01fa4c0baf3"
+            url: "https://github.com/kv-swift/SDL2Core/releases/download/311.1.15/libSDL2_mixer.zip",
+            checksum: "efe7714f6935e4c047b653400ac2687e7088c2dd6307315dbfa8ff6f667fd429"
         ),
         .binaryTarget(
             name: "libSDL2_ttf",
-            url: "https://github.com/kv-swift/SDL2Core/releases/download/311.1.14/libSDL2_ttf.zip",
-            checksum: "96ca84814a2c831b96ca108824ab835944324379d78bc62fe17ab03224cb0764"
+            url: "https://github.com/kv-swift/SDL2Core/releases/download/311.1.15/libSDL2_ttf.zip",
+            checksum: "d9a3c45d93d5943ef98f10510ef452486f0f68a2454b177abef23d445cf17c73"
         )
     ]
 )
